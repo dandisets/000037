@@ -1,0 +1,18 @@
+2020-10-21T22:08:21-0400 [INFO    ] dandi Traversing remote dandisets (000037) recursively
+2020-10-21T22:08:21-0400 [INFO    ] backups2datalad.py Updating metadata file
+2020-10-21T22:08:21-0400 [INFO    ] backups2datalad.py Syncing asset /sub-411400/sub-411400_ses-20181015T173410_behavior+ophys.nwb
+2020-10-21T22:08:22-0400 [INFO    ] backups2datalad.py Asset not in dataset; will copy
+2020-10-21T22:08:22-0400 [INFO    ] backups2datalad.py cp /mnt/backup/dandi/dandiarchive-s3-backup/girder-assetstore/52/78/5278896eeb2343deb6140e878815002a -> /mnt/backup/dandi/dandisets/000037/sub-411400/sub-411400_ses-20181015T173410_behavior+ophys.nwb
+2020-10-21T22:08:23-0400 [INFO    ] backups2datalad.py Adding asset to dataset
+2020-10-21T22:08:27-0400 [INFO    ] backups2datalad.py Adding URL https://dandiarchive.s3.amazonaws.com/girder-assetstore/52/78/5278896eeb2343deb6140e878815002a?versionId=pqKYu2NRJSj7LeaxHNjYrJvBnfNGwcKv to asset
+2020-10-21T22:08:27-0400 [INFO    ] backups2datalad.py Syncing asset /sub-411771/sub-411771_ses-20181003T174857_behavior+ophys.nwb
+2020-10-21T22:08:29-0400 [INFO    ] backups2datalad.py Asset not in dataset; will copy
+2020-10-21T22:08:29-0400 [INFO    ] backups2datalad.py cp /mnt/backup/dandi/dandiarchive-s3-backup/girder-assetstore/a6/20/a6203911dba44060be98031669c4ce57 -> /mnt/backup/dandi/dandisets/000037/sub-411771/sub-411771_ses-20181003T174857_behavior+ophys.nwb
+2020-10-21T22:08:29-0400 [INFO    ] backups2datalad.py Adding asset to dataset
+2020-10-21T22:08:30-0400 [INFO    ] backups2datalad.py Adding URL https://dandiarchive.s3.amazonaws.com/girder-assetstore/a6/20/a6203911dba44060be98031669c4ce57?versionId=aeFSt_7Q_3nL6A_nTGH4DXQJX7StaGYT to asset
+2020-10-21T22:08:31-0400 [INFO    ] backups2datalad.py Syncing asset /sub-411771/sub-411771_ses-20181008T172946_behavior+ophys.nwb
+2020-10-21T22:08:31-0400 [INFO    ] backups2datalad.py Asset not in dataset; will copy
+2020-10-21T22:08:31-0400 [INFO    ] backups2datalad.py cp /mnt/backup/dandi/dandiarchive-s3-backup/girder-assetstore/19/58/1958fc9b9f034f71b7faecfda1756756 -> /mnt/backup/dandi/dandisets/000037/sub-411771/sub-411771_ses-20181008T172946_behavior+ophys.nwb
+2020-10-21T22:08:31-0400 [INFO    ] backups2datalad.py Adding asset to dataset
+2020-10-21T22:08:32-0400 [INFO    ] backups2datalad.py Adding URL https://dandiarchive.s3.amazonaws.com/girder-assetstore/19/58/1958fc9b9f034f71b7faecfda1756756?versionId=AYBFKNcNr5qxtyKpmqddbY3AhZU7.KxE to asset
+2020-10-21T22:08:32-0400 [INFO    ] backups2datalad.py Commiting changes
