@@ -43,8 +43,8 @@ contributors:
   - Conceptualization
   - Formal Analysis
   - Supervision
-description: 'Data for the OpenScope Credit Assignment project, reported in Gillon
-  et al. (2020) bioRxiv ().
+description: 'Credit Assignment project data, collected as part of the Allen Institute
+  for Brain Science OpenScope project, reported in Gillon et al. (2020) bioRxiv ().
 
   Dataset comprises ROI traces, ROI masks, running speed, pupil diameter, stimulus
   parameters, stimulus frames.
