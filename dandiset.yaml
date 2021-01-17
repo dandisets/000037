@@ -44,11 +44,12 @@ contributors:
   - Conceptualization
   - Formal Analysis
   - Supervision
-description: This dataset was collected for the Credit Assignment project, as part
-  of the Allen Institute for Brain Science's OpenScope project, and is published in
-  Gillon et al., 2021, bioRxiv (). Included in the data files are ROI traces, ROI
-  masks, running velocity, pupil diameter, stimulus parameters, and stimulus frames.
-  Metadata for this dataset can be found here (https://github.com/jeromelecoq/allen_openscope_metadata/tree/master/projects/credit_assignement).
+description: 'This dataset was collected for the Credit Assignment project, as part
+  of the Allen Institute for Brain Science''s OpenScope project, and is published
+  in Gillon et al., 2021, bioRxiv (doi: 10.1101/2021.01.15.426915v1). Included in
+  the data files are ROI dF/F traces, ROI masks, running velocity traces, pupil diameter
+  traces, stimulus parameters, and stimulus frame images. Metadata for this dataset
+  can be found here (https://github.com/jeromelecoq/allen_openscope_metadata/tree/master/projects/credit_assignement).'
 identifier: '000037'
 keywords:
 - Learning
