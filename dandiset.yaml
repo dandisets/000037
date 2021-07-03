@@ -5,18 +5,8 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 91299968072
-  numberOfFiles: 47
-  numberOfSubjects: 13
-  schemaKey: AssetsSummary
-  species: []
-  variableMeasured: []
+  numberOfBytes: 0
+  numberOfFiles: 0
 citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Zylberberg, Joel; Richards, Blake
   A. (2021) Allen Institute Openscope - Credit Assignment project (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/draft
