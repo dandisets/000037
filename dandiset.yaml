@@ -5,8 +5,26 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 91299968072
+  numberOfFiles: 47
+  numberOfSubjects: 13
+  schemaKey: AssetsSummary
+  species: []
+  variableMeasured:
+  - PlaneSegmentation
+  - BehavioralTimeSeries
 citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Zylberberg, Joel; Richards, Blake
   A. (2021) Allen Institute Openscope - Credit Assignment project (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/draft
