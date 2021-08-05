@@ -112,7 +112,8 @@ keywords:
 - credit assignment
 license:
 - spdx:CC-BY-NC-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000037/versions/draft/assets/
 name: Allen Institute Openscope - Credit Assignment project
 relatedResource:
 - identifier: credit_assignement
