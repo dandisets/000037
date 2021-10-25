@@ -2,9 +2,8 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000037
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
-access:
-- schemaKey: AccessRequirements
-  status: dandi:OpenAccess
+about: []
+access: []
 assetsSummary:
   approach:
   - name: behavioral approach
@@ -90,14 +89,24 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2020-08-25T20:45:51.826000+00:00'
-description: 'This dataset was collected for the Credit Assignment project, as part
-  of the Allen Institute for Brain Science''s OpenScope project, and is published
-  in Gillon et al., 2021, bioRxiv.
-
-
-  Each session file includes: (1) ROI dF/F traces, (2) ROI masks, (3) running velocity
-  traces, (4) pupil diameter traces, (5) stimulus parameters, and (6) stimulus frame
-  images.'
+description: "This dataset was collected for the Credit Assignment project, as part
+  of the Allen Institute for Brain Science's OpenScope project, and is published in
+  Gillon et al., 2021, bioRxiv.\n\nEach session file includes: (1) ROI dF/F traces,
+  (2) ROI masks, (3) running velocity traces, (4) pupil diameter traces, (5) stimulus
+  parameters, and (6) stimulus frame images.\n\nBriefly, mice were habituated to head-fixation
+  on a running disc over a period of 11 days. Over the last 6 days, mice were presented
+  with repeating stimulus sequences, with expected features. These sessions are not
+  included in the dataset, as imaging was not performed.\n\nFollowing habituation,
+  sequences with unexpected features were introduced over three sessions, while two-photon
+  calcium imaging was performed in pyramidal neurons of primary visual cortex (VisP).
+  Specifically, recordings for each mouse were made in one of four planes: L2/3 somata,
+  L5 somata, L2/3 distal apical dendrites or L5 distal apical dendrites. \n\nAs mice
+  gained experience with the unexpected sequences, responses to these events were
+  found to evolve in opposite ways in the dendritic and somatic compartments.\n\nDataset
+  includes 13 subjects, and at least 3 sessions per subject. Dataset includes sessions
+  that were excluded from analysis for quality control reasons. See metadata Github
+  repository for information on each session."
+ethicsApproval: []
 id: DANDI:000037/draft
 identifier: DANDI:000037
 keywords:
@@ -113,14 +122,21 @@ keywords:
 - prediction
 - credit assignment
 license:
-- spdx:CC-BY-NC-4.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000037/versions/draft/assets/
 name: Allen Institute Openscope - Credit Assignment project
+protocol: []
 relatedResource:
+- identifier: 10.1101/2021.01.15.426915v1
+  name: Preprint
+  relation: dcite:Describes
+  repository: bioRxiv
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2021.01.15.426915v1.article-info
 - identifier: credit_assignement
   name: Metadata
-  relation: dcite:IsDerivedFrom
+  relation: dcite:IsMetadataFor
   repository: GitHub
   schemaKey: Resource
   url: https://github.com/jeromelecoq/allen_openscope_metadata/tree/master/projects/credit_assignement
@@ -130,12 +146,12 @@ relatedResource:
   repository: GitHub
   schemaKey: Resource
   url: https://github.com/colleenjg/OpenScope_CA_Analysis
-- identifier: 10.1101/2021.01.15.426915v1
-  relation: dcite:IsDescribedBy
-  schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2021.01.15.426915v1.article-info
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
+studyTarget:
+- How do unexpected events shape activity in the neocortical microcircuit, across
+  experience?
 url: https://dandiarchive.org/dandiset/000037/draft
 version: draft
+wasGeneratedBy: []
