@@ -128,12 +128,12 @@ manifestLocation:
 name: Allen Institute Openscope - Credit Assignment project
 protocol: []
 relatedResource:
-- identifier: 10.1101/2021.01.15.426915v1
+- identifier: 10.1101/2021.01.15.426915v2
   name: Preprint
   relation: dcite:Describes
   repository: bioRxiv
   schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2021.01.15.426915v1.article-info
+  url: https://www.biorxiv.org/content/10.1101/2021.01.15.426915v2
 - identifier: credit_assignement
   name: Metadata
   relation: dcite:IsMetadataFor
