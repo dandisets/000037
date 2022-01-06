@@ -17,16 +17,17 @@ assetsSummary:
   measurementTechnique:
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 91299968072
-  numberOfFiles: 47
+  numberOfBytes: 115943222632
+  numberOfFiles: 96
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species: []
   variableMeasured:
-  - PlaneSegmentation
   - BehavioralTimeSeries
+  - PlaneSegmentation
+  - PupilTracking
 citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Zylberberg, Joel; Richards, Blake
-  A. (2021) Allen Institute Openscope - Credit Assignment project (Version draft)
+  A. (2022) Allen Institute Openscope - Credit Assignment project (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/draft
 contributor:
 - email: colleen.gillon@mail.utoronto.ca
