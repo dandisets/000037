@@ -21,8 +21,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 124708883047
-  numberOfFiles: 99
+  numberOfBytes: 124456907639
+  numberOfFiles: 98
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -37,7 +37,7 @@ assetsSummary:
   - PupilTracking
   - ProcessingModule
 citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Zylberberg, Joel; Richards, Blake
-  A. (2022) Allen Institute Openscope - Credit Assignment project (Version draft)
+  A. (2023) Allen Institute Openscope - Credit Assignment project (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/draft
 contributor:
 - email: colleen.gillon@mail.utoronto.ca
