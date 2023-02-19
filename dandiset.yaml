@@ -15,14 +15,14 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
+  - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 208749621749
-  numberOfFiles: 144
+  numberOfBytes: 217199756438
+  numberOfFiles: 147
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -30,12 +30,12 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - OpticalChannel
-  - ImagingPlane
-  - BehavioralTimeSeries
   - PlaneSegmentation
+  - ImagingPlane
   - PupilTracking
+  - OpticalChannel
   - ProcessingModule
+  - BehavioralTimeSeries
 citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Zylberberg, Joel; Richards, Blake
   A. (2023) Allen Institute Openscope - Credit Assignment project (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/draft
