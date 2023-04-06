@@ -36,9 +36,10 @@ assetsSummary:
   - OpticalChannel
   - ProcessingModule
   - BehavioralTimeSeries
-citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Zylberberg, Joel; Richards, Blake
-  A. (2023) Allen Institute Openscope - Credit Assignment project (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/draft
+citation: 'Gillon, Colleen J.; Lecoq, Jérôme A.; Zylberberg, Joel; Richards, Blake
+  A. (2023) Allen Institute OpenScope: Responses to inconsistent stimuli in somata
+  and distal apical dendrites in primary visual cortex (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000037/draft'
 contributor:
 - email: colleen.gillon@mail.utoronto.ca
   identifier: 0000-0002-2253-7816
@@ -99,6 +100,61 @@ contributor:
   - dcite:FormalAnalysis
   - dcite:Supervision
   schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/03cpe7c52
+  includeInCitation: false
+  name: Allen Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://alleninstitute.org/
+- contactPoint: []
+  includeInCitation: false
+  name: Falconwood Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint:
+  - schemaKey: ContactPoint
+  identifier: https://ror.org/01h531d29
+  includeInCitation: false
+  name: Natural Sciences and Engineering Research Council
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nserc-crsng.gc.ca/index_eng.asp
+- contactPoint: []
+  identifier: https://ror.org/01sdtdd95
+  includeInCitation: false
+  name: Canadian Institute for Advanced Research
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.cifar.ca/
+- contactPoint: []
+  identifier: https://ror.org/052csg198
+  includeInCitation: false
+  name: Alfred P. Sloan Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.sloan.org/
+- contactPoint: []
+  identifier: https://ror.org/0517h6h17
+  includeInCitation: false
+  name: Canada Research Chairs
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.chairs-chaires.gc.ca/home-accueil-eng.aspx
+- contactPoint: []
+  identifier: https://ror.org/015pzp858
+  includeInCitation: false
+  name: Government of Ontario
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.ontario.ca/page/government
 dateCreated: '2020-08-25T20:45:51.826000+00:00'
 description: "This dataset was collected for the Credit Assignment project, as part
   of the Allen Institute for Brain Science's OpenScope project. The most up-to-date
@@ -150,7 +206,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000037/versions/draft/assets/
-name: Allen Institute Openscope - Credit Assignment project
+name: 'Allen Institute OpenScope: Responses to inconsistent stimuli in somata and
+  distal apical dendrites in primary visual cortex'
 protocol:
 - https://doi.org/10.1038/s41593-019-0550-9
 relatedResource:
