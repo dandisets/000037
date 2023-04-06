@@ -101,23 +101,37 @@ contributor:
   schemaKey: Person
 dateCreated: '2020-08-25T20:45:51.826000+00:00'
 description: "This dataset was collected for the Credit Assignment project, as part
-  of the Allen Institute for Brain Science's OpenScope project, and is published in
-  Gillon et al., 2021, bioRxiv.\n\nEach session file includes: (1) ROI dF/F traces,
-  (2) ROI masks, (3) running velocity traces, (4) pupil diameter traces, (5) stimulus
-  parameters, and (6) stimulus frame images.\n\nBriefly, mice were habituated to head-fixation
-  on a running disc over a period of 11 days. Over the last 6 days, mice were presented
-  with repeating stimulus sequences, with expected features. These sessions are not
-  included in the dataset, as imaging was not performed.\n\nFollowing habituation,
-  sequences with unexpected features were introduced over three sessions, while two-photon
-  calcium imaging was performed in pyramidal neurons of primary visual cortex (VisP).
-  Specifically, recordings for each mouse were made in one of four planes: L2/3 somata,
-  L5 somata, L2/3 distal apical dendrites or L5 distal apical dendrites. \n\nAs mice
-  gained experience with the unexpected sequences, responses to these events were
-  found to evolve in opposite ways in the dendritic and somatic compartments.\n\nDataset
-  includes 13 subjects, and at least 3 sessions per subject. Dataset includes sessions
-  that were excluded from analysis for quality control reasons. See metadata Github
-  repository for information on each session."
-ethicsApproval: []
+  of the Allen Institute for Brain Science's OpenScope project. The most up-to-date
+  links to the publications associated with this dataset (a dataset descriptor paper
+  and an analysis paper) can be found by going to the metadata Github repository,
+  linked below.\n\nBriefly, mice were habituated to head-fixation on a running disc
+  over a period of 11 days. Over the last 6 days, mice were presented with repeating
+  stimulus sequences, with consistent features. These sessions are not included in
+  the dataset, as imaging was not performed.\n\nFollowing habituation, sequences with
+  inconsistent features were introduced over three sessions, while two-photon calcium
+  imaging was performed in pyramidal neurons of primary visual cortex (VisP). Specifically,
+  recordings for each mouse were made in one of four planes: L2/3 somata, L5 somata,
+  L2/3 distal apical dendrites or L5 distal apical dendrites. \n\nAs mice gained experience
+  with the inconsistent sequences, responses to these events were found to evolve
+  in opposite ways in the dendritic and somatic compartments.\n\nThe dataset includes
+  13 subjects, and at least 3 sessions per subject. \n\nEach session file includes:
+  (1) ROI dF/F traces, (2) ROI masks, (3) ROI tracking information (if applicable),
+  (4) running velocity traces, (5) pupil diameter traces, (6) pupil centroid position
+  traces in x, y, (7) stimulus parameters. Note that gaze was not computed for this
+  dataset. What is provided is the position of the pupil centroid in the pupil recording
+  videos.\n\nA second, larger, version of each file was also created and includes:
+  (8) stimulus frame images (identifiable by `+image` in the file name).\n\nCertain
+  sessions in this dataset were excluded from our analyses for quality control reasons.
+  They are provided here, as the reasons we excluded them from our analyses may not
+  pose a problem for all use cases. \n\nThe metadata Github repository, linked below,
+  provides detailed information about each session, as well as links to a dataset
+  descriptor paper and an analysis paper. "
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: Allen Institute Institutional Animal Care and Use Committee (IACUC),
+    protocol 1801
+  schemaKey: EthicsApproval
 id: DANDI:000037/draft
 identifier: DANDI:000037
 keywords:
@@ -137,26 +151,27 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000037/versions/draft/assets/
 name: Allen Institute Openscope - Credit Assignment project
-protocol: []
+protocol:
+- https://doi.org/10.1038/s41593-019-0550-9
 relatedResource:
-- identifier: 10.1101/2021.01.15.426915v2
-  name: Preprint
-  relation: dcite:Describes
-  repository: bioRxiv
-  schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2021.01.15.426915v2
 - identifier: credit_assignement
   name: Metadata
-  relation: dcite:IsMetadataFor
+  relation: dcite:HasMetadata
   repository: GitHub
   schemaKey: Resource
   url: https://github.com/jeromelecoq/allen_openscope_metadata/tree/master/projects/credit_assignement
 - identifier: OpenScope_CA_Analysis
   name: Analysis code
-  relation: dcite:IsDerivedFrom
+  relation: dcite:IsSupplementedBy
   repository: GitHub
   schemaKey: Resource
   url: https://github.com/colleenjg/OpenScope_CA_Analysis
+- identifier: cred_assign_stimuli
+  name: Stimulus code
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/colleenjg/cred_assign_stimuli
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
