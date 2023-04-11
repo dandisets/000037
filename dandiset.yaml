@@ -229,6 +229,12 @@ relatedResource:
   repository: GitHub
   schemaKey: Resource
   url: https://github.com/colleenjg/cred_assign_stimuli
+- identifier: 10.1101/2021.01.15.426915
+  name: bioRxiv paper
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2021.01.15.426915
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
