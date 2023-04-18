@@ -23,8 +23,10 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 125379392923
-  numberOfFiles: 100
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 830110951438
+  numberOfFiles: 115
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -38,6 +40,8 @@ assetsSummary:
   - OpticalChannel
   - ProcessingModule
   - BehavioralTimeSeries
+  - SpatialSeries
+  - TwoPhotonSeries
 citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Pina, Jason E.; Zylberberg, Joel;
   Richards, Blake A. (2023) Allen Institute Openscope - Responses to inconsistent
   stimuli in somata and distal apical dendrites in primary visual cortex (Version
