@@ -43,9 +43,9 @@ assetsSummary:
   - PupilTracking
   - TwoPhotonSeries
 citation: Gillon, Colleen J.; Lecoq, Jérôme A.; Pina, Jason E.; Zylberberg, Joel;
-  Richards, Blake A. (2023) Allen Institute Openscope - Responses to inconsistent
+  Richards, Blake A. (2024) Allen Institute Openscope - Responses to inconsistent
   stimuli in somata and distal apical dendrites in primary visual cortex (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000037/draft
+  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation:
   - identifier: https://ror.org/03dbr7087
@@ -178,7 +178,7 @@ contributor:
   schemaKey: Organization
   url: https://www.ontario.ca/page/government
 dateCreated: '2020-08-25T20:45:51.826000+00:00'
-datePublished: '2023-04-26T00:54:54.454857+00:00'
+datePublished: '2024-02-02T19:37:34.058116+00:00'
 description: 'This dataset was collected for the Credit Assignment project, as part
   of the Allen Institute for Brain Science''s OpenScope project. The most up-to-date
   links to the publications associated with this dataset (a dataset descriptor paper
@@ -215,6 +215,7 @@ description: 'This dataset was collected for the Credit Assignment project, as p
   reasons. They are provided here, as the reasons we excluded them from our analyses
   may not pose a problem for all use cases. The metadata Github repository, linked
   below, provides detailed information about each session. '
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -244,36 +245,48 @@ name: Allen Institute Openscope - Responses to inconsistent stimuli in somata an
 protocol:
 - https://doi.org/10.1038/s41593-019-0550-9
 publishedBy:
-  endDate: '2023-04-26T00:54:54.454857+00:00'
-  id: urn:uuid:e87b238b-9530-4e06-9a7f-106b9f4c719b
+  endDate: '2024-02-02T19:37:34.058116+00:00'
+  id: urn:uuid:9695d647-7fef-4574-a921-1985341fb8e1
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-04-26T00:54:54.454857+00:00'
+  startDate: '2024-02-02T19:37:34.058116+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:70e471a5-6a48-4b1a-a0dc-aa35485bfcf0
+  - id: urn:uuid:ab10cee6-f200-42c6-ab6c-4d6b7a7fec72
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
 relatedResource:
-- identifier: credit_assignement
-  name: Metadata
-  relation: dcite:HasMetadata
-  repository: GitHub
+- identifier: 10.1038/s41597-023-02214-y
+  name: Dataset descriptor
+  relation: dcite:IsPublishedIn
+  repository: Scientific Data
   schemaKey: Resource
-  url: https://github.com/jeromelecoq/allen_openscope_metadata/tree/master/projects/credit_assignement
-- identifier: OpenScope_CA_Analysis
-  name: Analysis code
-  relation: dcite:IsSupplementedBy
-  repository: GitHub
-  schemaKey: Resource
-  url: https://github.com/colleenjg/OpenScope_CA_Analysis
+  url: https://www.nature.com/articles/s41597-023-02214-y
 - identifier: cred_assign_stimuli
   name: Stimulus code
   relation: dcite:IsSupplementedBy
   repository: GitHub
   schemaKey: Resource
   url: https://github.com/colleenjg/cred_assign_stimuli
+- identifier: '10.1523/JNEUROSCI.1009-23.2023 '
+  name: Analysis paper
+  relation: dcite:IsPublishedIn
+  repository: Journal of Neuroscience
+  schemaKey: Resource
+  url: https://www.jneurosci.org/content/44/5/e1009232023
+- identifier: OpenScope_CA_Analysis
+  name: Analysis code
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/colleenjg/OpenScope_CA_Analysis
+- identifier: credit_assignement
+  name: Metadata
+  relation: dcite:HasMetadata
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/jeromelecoq/allen_openscope_metadata/tree/master/projects/credit_assignement
 - identifier: 10.1101/2021.01.15.426915
   name: bioRxiv paper
   relation: dcite:IsDescribedBy
