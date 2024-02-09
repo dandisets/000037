@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2484974036475
-  numberOfFiles: 150
+  numberOfBytes: 2484974036680
+  numberOfFiles: 151
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -178,7 +178,7 @@ contributor:
   schemaKey: Organization
   url: https://www.ontario.ca/page/government
 dateCreated: '2020-08-25T20:45:51.826000+00:00'
-datePublished: '2024-02-02T19:37:34.058116+00:00'
+datePublished: '2024-02-09T15:59:39.207955+00:00'
 description: 'This dataset was collected for the Credit Assignment project, as part
   of the Allen Institute for Brain Science''s OpenScope project. The most up-to-date
   links to the publications associated with this dataset (a dataset descriptor paper
@@ -245,13 +245,13 @@ name: Allen Institute Openscope - Responses to inconsistent stimuli in somata an
 protocol:
 - https://doi.org/10.1038/s41593-019-0550-9
 publishedBy:
-  endDate: '2024-02-02T19:37:34.058116+00:00'
-  id: urn:uuid:9695d647-7fef-4574-a921-1985341fb8e1
+  endDate: '2024-02-09T15:59:39.207955+00:00'
+  id: urn:uuid:0388be8b-1441-45a0-84f5-70170d9d8a46
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-02T19:37:34.058116+00:00'
+  startDate: '2024-02-09T15:59:39.207955+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:ab10cee6-f200-42c6-ab6c-4d6b7a7fec72
+  - id: urn:uuid:124f398d-2856-4a46-bd66-60395313c82d
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
