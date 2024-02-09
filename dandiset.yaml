@@ -25,7 +25,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2484974036680
+  numberOfBytes: 2484974036912
   numberOfFiles: 151
   numberOfSubjects: 13
   schemaKey: AssetsSummary
@@ -178,43 +178,36 @@ contributor:
   schemaKey: Organization
   url: https://www.ontario.ca/page/government
 dateCreated: '2020-08-25T20:45:51.826000+00:00'
-datePublished: '2024-02-09T15:59:39.207955+00:00'
-description: 'This dataset was collected for the Credit Assignment project, as part
-  of the Allen Institute for Brain Science''s OpenScope project. The most up-to-date
+datePublished: '2024-02-09T16:23:24.565058+00:00'
+description: "This dataset was collected for the Credit Assignment project, as part
+  of the Allen Institute for Brain Science's OpenScope project. The most up-to-date
   links to the publications associated with this dataset (a dataset descriptor paper
   and an analysis paper) can be found by going to the metadata Github repository,
-  linked below.
-
-
-  Briefly, mice were habituated to head-fixation on a running disc over a period of
-  11 days. Over the last 6 days, mice were presented with repeating stimulus sequences,
-  with consistent features. These sessions are not included in the dataset, as imaging
-  was not performed. Following habituation, sequences with inconsistent features were
-  introduced over three sessions, while two-photon calcium imaging was performed in
-  pyramidal neurons of primary visual cortex (VisP). Specifically, recordings for
-  each mouse were made in one of four planes: L2/3 somata, L5 somata, L2/3 distal
-  apical dendrites or L5 distal apical dendrites. As mice gained experience with the
-  inconsistent sequences, responses to these events were found to evolve in opposite
-  ways in the dendritic and somatic compartments.
-
-
-  The dataset includes 50 sessions total, recorded in 13 subjects, with at least 3
-  sessions per subject. Each session file includes: **(1)** ROI dF/F traces, **(2)**
-  ROI masks, **(3)** ROI tracking information (where applicable), **(4)** running
-  velocity traces, **(5)** pupil diameter traces, **(6)** pupil centroid position
-  traces in x and y, **(7)** stimulus parameters. Note that gaze was not computed
-  for this dataset. What is provided is the position of the pupil centroid in the
-  pupil recording videos. In addition, a second, slightly larger version of each file
-  was created, also including: **(8)** stimulus frame images (identifiable by `+image`
-  in the file name). Lastly, a third, much larger version of each file was created,
-  also including: **(9)** the motion corrected imaging stack (identifiable by `_obj-raw`
-  in the file name).
-
-
-  Certain sessions in this dataset were excluded from our analyses for quality control
-  reasons. They are provided here, as the reasons we excluded them from our analyses
-  may not pose a problem for all use cases. The metadata Github repository, linked
-  below, provides detailed information about each session. '
+  linked below.\n\nBriefly, mice were habituated to head-fixation on a running disc
+  over a period of 11 days. Over the last 6 days, mice were presented with repeating
+  stimulus sequences, with consistent features. These sessions are not included in
+  the dataset, as imaging was not performed. Following habituation, sequences with
+  inconsistent features were introduced over three sessions, while two-photon calcium
+  imaging was performed in pyramidal neurons of primary visual cortex (VisP). Specifically,
+  recordings for each mouse were made in one of four planes: L2/3 somata, L5 somata,
+  L2/3 distal apical dendrites or L5 distal apical dendrites. As mice gained experience
+  with the inconsistent sequences, responses to these events were found to evolve
+  in opposite ways in the dendritic and somatic compartments.\n\nThe dataset includes
+  50 sessions total, recorded in 13 subjects, with at least 3 sessions per subject.
+  Each session file includes: **(1)** ROI dF/F traces, **(2)** ROI masks, **(3)**
+  ROI tracking information (where applicable), **(4)** running velocity traces, **(5)**
+  pupil diameter traces, **(6)** pupil centroid position traces in x and y, **(7)**
+  stimulus parameters. Note that gaze was not computed for this dataset. What is provided
+  is the position of the pupil centroid in the pupil recording videos. In addition,
+  a second, slightly larger version of each file was created, also including: **(8)**
+  stimulus frame images (identifiable by `+image` in the file name). Lastly, a third,
+  much larger version of each file was created, also including: **(9)** the motion
+  corrected imaging stack (identifiable by `_obj-raw` in the file name).\n\nCertain
+  sessions in this dataset were excluded from our analyses for quality control reasons.
+  They are provided here, as the reasons we excluded them from our analyses may not
+  pose a problem for all use cases. The metadata Github repository, linked below,
+  provides detailed information about each session. \n\nRelease notes for each version
+  of the dataset are provided in the CHANGES file."
 doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval:
 - contactPoint:
@@ -245,20 +238,20 @@ name: Allen Institute Openscope - Responses to inconsistent stimuli in somata an
 protocol:
 - https://doi.org/10.1038/s41593-019-0550-9
 publishedBy:
-  endDate: '2024-02-09T15:59:39.207955+00:00'
-  id: urn:uuid:0388be8b-1441-45a0-84f5-70170d9d8a46
+  endDate: '2024-02-09T16:23:24.565058+00:00'
+  id: urn:uuid:4e894d54-c6c7-4d2c-8f29-7ecdf1034b29
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-09T15:59:39.207955+00:00'
+  startDate: '2024-02-09T16:23:24.565058+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:124f398d-2856-4a46-bd66-60395313c82d
+  - id: urn:uuid:415bdd6b-87c1-41b9-ad67-71a99ecfbd5e
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
 relatedResource:
 - identifier: 10.1038/s41597-023-02214-y
-  name: Dataset descriptor
+  name: Dataset description paper
   relation: dcite:IsPublishedIn
   repository: Scientific Data
   schemaKey: Resource
